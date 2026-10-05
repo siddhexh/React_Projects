@@ -1,0 +1,58 @@
+.card {
+  background-color: #1a1d27;
+  border: 1px solid #2d3139;
+  border-radius: 16px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #9ca3af;
+  margin-bottom: 1.75rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.75rem;
+}
+
+button {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #ffffff;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Optional: distinct color for the decrease button */
+button.remove {
+  background-color: #374151;
+}
+
+button.remove:hover {
+  background-color: #4b5563;
+}
