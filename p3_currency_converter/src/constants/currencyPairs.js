@@ -16,3 +16,5 @@ export const popularConversions = [
     to: "EUR",
   },
 ];
+
+export default popularConversions;
